@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.container {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 30px;
+}
+
+.speed-img {
+  height: 170px;
+  width: 450px;
+}
+
+.current-speed {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  margin: 20px;
+}
+
+.desc-condition {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 20px;
+}
+
+.btn-accelerate {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  background-color: blue;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-brake {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
